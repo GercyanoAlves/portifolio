@@ -1,0 +1,118 @@
+body {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover; /* Isso faz com que a imagem cubra toda a área do corpo */
+    background-position: center; /* Isso posiciona a imagem no centro do corpo */
+    /* Você também pode adicionar outras propriedades como repeat, attachment, etc. conforme necessário */
+    color: bisque;
+    font-family: sans-serif;
+}
+
+/*Cabeçalho*/
+header{ 
+    position: fixed;
+    top: 0  ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.navegacao li {
+    display: inline;
+    margin: auto 100px auto;
+}
+a{
+    text-decoration: none;
+    color:bisque;
+}
+a:hover{
+    background: rgb(50, 50, 50);
+    border-radius: 20px;
+    opacity: 0.5;
+}
+/*-----------------------------------------------*/
+
+/*Agora é organizar o inicio*/
+
+.inicio{
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 155px 120px;
+    background: rgb(102, 101, 101);
+    border-radius: 20px;
+}
+
+.inicio img{
+    border-radius: 20px;
+    margin: 40px;
+}
+
+/*----------------------------------------------*/
+
+/*Sobre Mim*/
+.sobreMim img{
+    width:400px ;
+    height:400px;
+    border-radius: 20px;
+
+}
+
+
+#sobre-mim{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 20px;
+    text-align: center;
+    background: rgb(102, 101, 101);
+}
+
+/*--------------------------------------------------*/
+
+.tecnologia h1 {
+    text-align: center;
+    margin: 100px;
+    display: flex;
+}
+
+#html img{
+    display: block;
+    text-align: center;
+    width: 267px;
+    margin: 0 30px;
+    margin-right:100px;
+    
+}
+
+#html{
+    background: rgb(102, 101, 101);
+    border-radius: 20px;
+}
+.html-css{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+    background: rgb(102, 101, 101);
+    border-radius: 20px;
+}
+
+.css{
+    display: block;
+    text-align: center;
+    width: 267px;
+}
+
+/*-------------------------------------------*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
